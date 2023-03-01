@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "66ebe281-5914-4995-b2f3-1777ba7ce979",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "FengQuan_Dong": {
+      "ver": "1.0.4",
+      "uuid": "4e0cbf83-3cc4-488d-8a1c-91e7e44615c4",
+      "rawTextureUuid": "66ebe281-5914-4995-b2f3-1777ba7ce979",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -3.5,
+      "trimX": 0,
+      "trimY": 12,
+      "width": 44,
+      "height": 122,
+      "rawWidth": 44,
+      "rawHeight": 139,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

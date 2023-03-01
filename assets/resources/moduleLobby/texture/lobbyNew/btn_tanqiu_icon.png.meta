@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "803008d2-70c9-4742-b876-6fbc51658ab5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "btn_tanqiu_icon": {
+      "ver": "1.0.4",
+      "uuid": "eca2f4c6-47c9-4e1b-bc82-3873229e199e",
+      "rawTextureUuid": "803008d2-70c9-4742-b876-6fbc51658ab5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 260,
+      "height": 323,
+      "rawWidth": 260,
+      "rawHeight": 323,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

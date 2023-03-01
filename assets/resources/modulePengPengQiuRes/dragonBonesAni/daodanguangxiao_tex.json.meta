@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6dc5533f-ba62-4a14-97bc-2f2de3fa6fec",
+  "atlasJson": "{\"width\":256,\"SubTexture\":[{\"width\":103,\"y\":1,\"height\":46,\"name\":\"光圈\",\"x\":87},{\"width\":100,\"y\":49,\"height\":38,\"name\":\"定光2\",\"x\":87},{\"width\":84,\"y\":1,\"height\":119,\"name\":\"定光\",\"x\":1}],\"height\":128,\"name\":\"daodanguangxiao\",\"imagePath\":\"daodanguangxiao_tex.png\"}",
+  "texture": "adbe8008-c592-47f7-b8d7-4e2529b824a2",
+  "subMetas": {}
+}

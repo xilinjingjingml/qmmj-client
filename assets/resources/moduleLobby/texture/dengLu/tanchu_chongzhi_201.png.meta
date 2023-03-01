@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "cf4df228-0b4f-446d-afe0-76fcdf04a6e4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "tanchu_chongzhi_201": {
+      "ver": "1.0.4",
+      "uuid": "4ea09182-e1f1-4021-9311-02ed09e35b8c",
+      "rawTextureUuid": "cf4df228-0b4f-446d-afe0-76fcdf04a6e4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2.5,
+      "trimX": 1,
+      "trimY": 3,
+      "width": 176,
+      "height": 66,
+      "rawWidth": 178,
+      "rawHeight": 77,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

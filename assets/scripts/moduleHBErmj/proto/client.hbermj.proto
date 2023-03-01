@@ -1,0 +1,509 @@
+message mahjong_ermj_completedata_not{
+
+	required	int32	nDiZhu	=	1;
+	required	int32	cBanker	=	2;
+	required	int32	nAllScore	=	3;
+	required	int32	cWallEndChair	=	4;
+	required	int32	cWallEndPos	=	5;
+	required	int32	cWallCardNum	=	6;
+	required	int32	cGangTotalNum	=	7;
+	repeated	int32	vecHuaNum	=	8;
+	required	int32	cAutoState	=	9;
+	required	int32	cAutoType	=	10;
+	required	int32	nChuPai	=	11;
+	required	int32	nVisitorAmount	=	12;
+	required	int32	sSerialID	=	13;
+	repeated	mahjong_ermj_changecard_not	vecPlyData	=	14;
+	repeated	int32	vecTingPly	=	15;
+}
+message mahjong_ermj_taifei_not{
+
+	required	int32	nChairId	=	1;
+	required	int32	nValue	=	2;
+}
+message mahjong_ermj_hupai_ratio_not{
+
+	required	int32	nChairId	=	1;
+	required	int32	nValue	=	2;
+}
+message mahjong_ermj_task_change_req{
+
+	required	int32	nChairId	=	1;
+}
+message mahjong_mj_pause_game_not{
+
+	required	int32	nFlag	=	1;
+	required	int32	nWaitTime	=	2;
+	required	int32	nLeftTime	=	3;
+	required	int32	cChairId	=	4;
+	required	string	sNickName	=	5;
+}
+message mahjong_ermj_hudouble_req_new{
+
+	required	int32	cChairId	=	1;
+	required	int32	nFan	=	2;
+	required	int32	nScore	=	3;
+}
+message mahjong_ermj_tingfan_not{
+
+	required	int32	sSerialID	=	1;
+	repeated	mahjong_tingfan_data	vecTingFan	=	2;
+}
+message mahjong_ermj_hudouble_ack{
+
+	required	int32	cDoubleStyle	=	1;
+}
+message mahjong_ermj_gc_task_complete_not{
+
+	required	int32	chair_id	=	1;
+	required	int32	task_status	=	2;
+	required	int32	money	=	3;
+	required	int32	gift	=	4;
+}
+message mahjong_ermj_hudouble_not{
+
+	required	int32	cChairID	=	1;
+	required	int32	sDoubleNum	=	2;
+}
+message mahjong_ermj_visi_compdata_req{
+
+}
+message mahjong_ermj_task_change_rsp{
+
+	required	int32	nChairId	=	1;
+	required	int32	nRet	=	2;
+}
+message mahjong_ermj_Cli_TingType_req{
+
+	required	int32	cAutoGang	=	1;
+	required	int32	cZimoOnly	=	2;
+}
+message mahjong_get_mj_private_room_result_req{
+
+}
+message mahjong_ermj_baopai_not{
+
+	required	int32	nChairId	=	1;
+	required	int32	nCardValue	=	2;
+}
+message mahjong_ermj_operate_not{
+
+	required	int32	cChairID	=	1;
+	required	int32	nOpcode	=	2;
+	required	int32	cCard	=	3;
+	required	int32	cWallCardNum	=	4;
+	required	int32	bRobot	=	5;
+	repeated	int32	vecCards	=	6;
+}
+message mahjong_ermj_mingpai_ratio_req{
+
+	required	int32	nChairId	=	1;
+	required	int32	nValue	=	2;
+}
+message mahjong_ermj_tingcards_not{
+
+	repeated	int32	vecCards	=	1;
+}
+message mahjong_mj_private_room_result_not{
+
+	repeated	mahjong_GameStatisc	vecGameStatiscs	=	1;
+}
+message mahjong_ermj_task_not{
+
+	required	int32	nChairId	=	1;
+	required	int32	nType	=	2;
+	required	int32	nTargetValue	=	3;
+	required	int32	nCardValue	=	4;
+	required	int32	nRatio	=	5;
+}
+message mahjong_mj_seat_dice_not{
+
+	required	int32	cChairID	=	1;
+	repeated	int32	vecDice	=	2;
+}
+message mahjong_ermj_hudouble_req{
+
+	required	int32	nFan	=	1;
+	required	int32	nScore	=	2;
+}
+message mahjong_ermj_robot_req{
+
+	required	int32	nType	=	1;
+	required	int32	nIndex	=	2;
+	required	int32	cCard	=	3;
+}
+message mahjong_GameStatisc{
+
+	required	int32	nBankerNum	=	1;
+	required	int32	nLianBankerNum	=	2;
+	required	int32	nHuNum	=	3;
+	required	int32	nDianPaoNum	=	4;
+	required	int32	nMoBaoNum	=	5;
+	required	int32	nBaoZhongBaoNum	=	6;
+	required	int64	nAmount	=	7;
+}
+message mahjong_ermj_hupai_ratio_rsp{
+
+	required	int32	nChairId	=	1;
+	required	int32	nRet	=	2;
+}
+message mahjong_ermj_baopai_change_req{
+
+	required	int32	nChairId	=	1;
+}
+message mahjong_mj_rount_count_not{
+
+	required	int32	nMaJiangQuan	=	1;
+	required	int32	nMaJiangJu	=	2;
+	required	int32	nMaJiangCount	=	3;
+}
+message mahjong_ermj_dice_not{
+
+	required	int32	cBanker	=	1;
+	repeated	int32	vecDice	=	2;
+	required	int32	cWallEndChair	=	3;
+	required	int32	cWallEndPos	=	4;
+}
+message mahjong_ermj_achieve_req{
+
+	required	int32	nChairId	=	1;
+	required	int32	nType	=	2;
+}
+message mahjong_ermj_readyting_not{
+
+	required	int32	cChi	=	1;
+	required	int32	cPeng	=	2;
+	required	int32	cCard	=	3;
+	repeated	int32	vecChiType	=	4;
+}
+message mahjong_ermj_task_complete_not{
+
+	required	int32	nRet	=	1;
+	required	int32	unReachValue	=	2;
+}
+message mahjong_st_gameresult{
+
+	required	int32	cChairID	=	1;
+	repeated	int32	vecResult	=	2;
+	required	int32	nScore	=	3;
+	required	int32	nFan	=	4;
+	required	int32	nAllScore	=	5;
+	required	int32	cMingGangNum	=	6;
+	required	int32	cAnGangNum	=	7;
+	required	int32	cBuGangNum	=	8;
+	required	int32	cDianGangNum	=	9;
+}
+message mahjong_ermj_svr_dizhu_not{
+
+	required	int32	nDiZhu	=	1;
+}
+message mahjong_TaskItem{
+
+	required	int32	task_id	=	1;
+	required	string	task_desc	=	2;
+	required	string	task_mission	=	3;
+	required	int32	task_money_type	=	4;
+	required	int32	task_money	=	5;
+	required	int32	task_rate	=	6;
+}
+message mahjong_ermj_playcard_req_new{
+
+	required	int32	cChairID	=	1;
+	required	int32	nOpcode	=	2;
+	required	int32	cPrevCard	=	3;
+	repeated	int32	vecTingPutCards	=	4;
+	repeated	int32	vecTingHuCards	=	5;
+	repeated	mahjong_gang_info	vecGangInfo	=	6;
+	required	int32	sSerialID	=	7;
+}
+message mahjong_gc_get_redpackets_award_ack{
+
+	required	int32	ret	=	1;
+	required	int32	cur_rounds	=	2;
+	required	int32	limit_rounds	=	3;
+	required	int32	nAmount	=	4;
+	required	int32	cItemtype	=	5;
+	required	int32	task_id	=	6;
+	repeated	mahjong_player_itemInfo	fakeItem	=	7;
+}
+message mahjong_ermj_visi_compdata_not{
+
+	required	int32	cBanker	=	1;
+	required	int32	nLeftCards	=	2;
+	required	int32	nDizhu	=	3;
+	required	int32	nTaifei	=	4;
+	required	int32	cCurrPly	=	5;
+	required	int32	cPrioPly	=	6;
+	required	int32	cAdminPly	=	7;
+	required	int32	cInvitePly	=	8;
+	repeated	mahjong_ermj_changecard_not	vecPlyData	=	9;
+	repeated	int32	vecTingPly	=	10;
+	repeated	int32	vecHuaNum	=	11;
+	required	int32	nParam1	=	12;
+	required	int32	nParam2	=	13;
+	required	string	strParam1	=	14;
+	required	string	strParam2	=	15;
+}
+message mahjong_ermj_gc_clienttimer_not{
+
+	required	int32	chairId	=	1;
+	required	int32	sPeriod	=	2;
+}
+message mahjong_ermj_gameresult_not_jj{
+
+	required	int32	cWinChairID	=	1;
+	repeated	mahjong_st_gameresult	vecGameResult	=	2;
+	required	int32	cType	=	3;
+	required	int32	nBei	=	4;
+	required	int32	nHua	=	5;
+	required	int32	nBanker	=	6;
+	required	int32	nHuDouble	=	7;
+	required	int32	nMingRatio	=	8;
+	required	int32	nTaskRatio	=	9;
+	required	int32	nBaopaiRatio	=	10;
+	required	int32	nAwardAll	=	11;
+	repeated	mahjong_fan_award_data	vecFanAward	=	12;
+}
+message mahjong_ermj_animate_ok_req{
+
+}
+message mahjong_ermj_gameresult_not{
+
+	required	int32	cWinChairID	=	1;
+	repeated	mahjong_st_gameresult	vecGameResult	=	2;
+	required	int32	cType	=	3;
+	required	int32	nBei	=	4;
+	required	int32	nHua	=	5;
+	required	int32	nBanker	=	6;
+	required	int32	nHuDouble	=	7;
+	required	int32	nMingRatio	=	8;
+	required	int32	nTaskRatio	=	9;
+	required	int32	nBaopaiRatio	=	10;
+}
+message mahjong_ermj_winstreak_req{
+
+	required	int32	nChairId	=	1;
+	required	int32	nNum	=	2;
+}
+message mahjong_ermj_robot_not{
+
+	required	int32	nType	=	1;
+	repeated	int32	vecCards	=	2;
+}
+message mahjong_fan_award_data{
+
+	required	string	sFanName	=	1;
+	required	int32	nFan	=	2;
+	required	int32	nAwardNum	=	3;
+}
+message mahjong_gc_update_player_tokenmoney_not{
+
+	required	int32	ply_chairid	=	1;
+	repeated	mahjong_player_itemInfo	itemInfo	=	2;
+}
+message mahjong_player_itemInfo{
+
+	required	int32	nItemIndex	=	1;
+	required	int32	nItemNum	=	2;
+}
+message mahjong_ermj_gc_expression_not{
+
+	required	int32	expression_type	=	1;
+	required	int32	expression_num	=	2;
+}
+message mahjong_mj_replay_data_not{
+
+	repeated	mahjong_ermj_changecard_not_new	vecChangeCards	=	1;
+}
+message mahjong_ermj_winstreak_rsp{
+
+	required	int32	nChairId	=	1;
+	required	int32	nRet	=	2;
+	required	int32	nNum	=	3;
+}
+message mahjong_ermj_baopai_change_rsp{
+
+	required	int32	nChairId	=	1;
+	required	int32	nRet	=	2;
+}
+message mahjong_cg_get_redpackets_award_req{
+
+	required	int32	type	=	1;
+}
+message mahjong_svr_fake_score_not{
+
+	repeated	int64	scores	=	1;
+}
+message mahjong_ermj_Cli_Auto_Req{
+
+	required	int32	cAuto	=	1;
+	required	int32	iAutoType	=	2;
+}
+message mahjong_get_mj_private_room_result_ack{
+
+	repeated	mahjong_GameStatisc	vecGameStatiscs	=	1;
+}
+message mahjong_ermj_gc_clienttimer_not_new{
+
+	required	int32	cChairId	=	1;
+	required	int32	cNextChairId	=	2;
+	required	int32	nPeriod	=	3;
+	required	int32	nOpcode	=	4;
+}
+message mahjong_ermj_changecard_not{
+
+	required	int32	cChairID	=	1;
+	repeated	int32	vecDisplayCards	=	2;
+	repeated	int32	vecDisplayHua	=	3;
+	repeated	int32	vecLeftCards	=	4;
+	repeated	int32	vecHandCards	=	5;
+}
+message mahjong_ermj_completedata_req{
+
+}
+message mahjong_ermj_hupai_ratio_req{
+
+	required	int32	nChairId	=	1;
+}
+message mahjong_ermj_Svr_Auto_Not{
+
+	required	int32	cChairID	=	1;
+	required	int32	cAuto	=	2;
+	required	int32	iAutoType	=	3;
+}
+message mahjong_ermj_mingpai_ratio_not{
+
+	required	int32	nChairId	=	1;
+	required	int32	nValue	=	2;
+}
+message mahjong_ermj_completedata_not_new{
+
+	required	int32	nDiZhu	=	1;
+	required	int32	cBanker	=	2;
+	required	int32	nAllScore	=	3;
+	required	int32	cWallEndChair	=	4;
+	required	int32	cWallEndPos	=	5;
+	required	int32	cWallCardNum	=	6;
+	required	int32	cGangTotalNum	=	7;
+	repeated	int32	vecHuaNum	=	8;
+	required	int32	cAutoState	=	9;
+	required	int32	cAutoType	=	10;
+	required	int32	nChuPai	=	11;
+	required	int32	nVisitorAmount	=	12;
+	required	int32	sSerialID	=	13;
+	repeated	mahjong_ermj_changecard_not	vecPlyData	=	14;
+	repeated	int64	vecFakeScores	=	15;
+	repeated	int32	vecTingPly	=	16;
+}
+message mahjong_tingfan_data{
+
+	required	int32	cPutCard	=	1;
+	required	int32	cHuCard	=	2;
+	required	int32	nFan	=	3;
+	required	int32	nLeftNum	=	4;
+}
+message mahjong_ermj_playcard_ack{
+
+	required	int32	nOpcode	=	1;
+	required	int32	cOpCard	=	2;
+	repeated	int32	vecHunCards	=	3;
+	required	int32	sSerialID	=	4;
+}
+message mahjong_ermj_changecard_not_new{
+
+	required	int32	cChairID	=	1;
+	required	int32	cHuPai	=	2;
+	repeated	int32	vecDisplayCards	=	3;
+	repeated	int32	vecDisplayHua	=	4;
+	repeated	int32	vecLeftCards	=	5;
+	repeated	int32	vecHandCards	=	6;
+}
+message mahjong_gang_info{
+
+	required	int32	nOpcode	=	1;
+	repeated	int32	vecGangCards	=	2;
+}
+message mahjong_ermj_playcard_req{
+
+	required	int32	nOpcode	=	1;
+	required	int32	cPrevCard	=	2;
+	repeated	int32	vecTingPutCards	=	3;
+	repeated	int32	vecTingHuCards	=	4;
+	repeated	mahjong_gang_info	vecGangInfo	=	5;
+	required	int32	sSerialID	=	6;
+}
+message mahjong_ermj_gc_task_not{
+
+	required	mahjong_TaskItem	task_item	=	1;
+}
+message mahjong_gc_get_redpackets_88yuan_award_ack{
+
+	required	int32	ret	=	1;
+	required	int32	cur_rounds	=	2;
+	required	int32	limit_rounds	=	3;
+	required	int32	nAmount	=	4;
+	required	int32	cItemtype	=	5;
+	required	int32	task_id	=	6;
+}
+message mahjong_cg_get_redpackets_88yuan_award_req{
+
+	required	int32	type	=	1;
+}
+message mahjong_cb_create_table_req{
+
+	required	string	name	=	1;
+	required	string	password	=	2;
+	required	int32	base_score	=	3;
+	required	int32	table_time	=	4;
+	required	int32	flag	=	5;
+	required	int32	game_rule	=	6;
+	required	int32	init_score	=	7;
+	repeated	int32	game_rule_group	=	8;
+	required	string	game_json	=	9;
+	required	int32	mode	=	10;
+	required	int32	club_uid	=	11;
+	required	string	tiny_json	=	12;
+	required	int32	club_rule_id	=	13;
+}
+message mahjong_bc_create_table_ack{
+
+	required	int32	ret	=	1;
+	required	mahjong_TableAttr	table_attrs	=	2;
+	required	string	errMsg	=	3;
+}
+message mahjong_TableAttr{
+
+	required	int32	table_id	=	1;
+	required	string	name	=	2;
+	required	int32	lock	=	3;
+	repeated	mahjong_PlyBaseData	players	=	4;
+}
+message mahjong_PlyBaseData{
+
+	required	int64	ply_guid	=	1;
+	required	string	nickname	=	2;
+	required	int32	sex	=	3;
+	required	int32	gift	=	4;
+	required	int64	money	=	5;
+	required	int32	score	=	6;
+	required	int32	won	=	7;
+	required	int32	lost	=	8;
+	required	int32	dogfall	=	9;
+	required	int32	table_id	=	10;
+	required	int32	param_1	=	11;
+	required	int32	param_2	=	12;
+	required	int32	chair_id	=	13;
+	required	int32	ready	=	14;
+	required	mahjong_VipData	ply_vip	=	15;
+}
+message mahjong_VipData{
+
+	required	int32	level	=	1;
+	required	int32	nex_level_total_days	=	2;
+	required	int32	auto_upgrade_day	=	3;
+	required	int32	login_award	=	4;
+	required	int32	friend_count	=	5;
+	required	int32	next_level_due_days	=	6;
+	required	int32	remain_due_days	=	7;
+	required	int32	status	=	8;
+}

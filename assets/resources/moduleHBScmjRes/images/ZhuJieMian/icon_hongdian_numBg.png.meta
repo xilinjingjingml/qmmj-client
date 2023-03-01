@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "4c944bbc-f5fb-41ec-a64f-39043ba7be5e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_hongdian_numBg": {
+      "ver": "1.0.4",
+      "uuid": "5304046b-7b7d-4443-855e-3e3c58fa6c99",
+      "rawTextureUuid": "4c944bbc-f5fb-41ec-a64f-39043ba7be5e",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 23,
+      "height": 23,
+      "rawWidth": 23,
+      "rawHeight": 23,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

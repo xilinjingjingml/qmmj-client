@@ -1,0 +1,6 @@
+{
+  "ver": "1.0.0",
+  "uuid": "84ff7627-6872-48d4-9f64-b51b0a7f2bfc",
+  "dragonBonesJson": "{\"frameRate\":24,\"isGlobal\":0,\"armature\":[{\"defaultActions\":[{\"gotoAndPlay\":\"Sprite\"}],\"ik\":[],\"type\":\"Sheet\",\"bone\":[{\"name\":\"root\",\"transform\":{}}],\"aabb\":{\"width\":123,\"y\":-105.5,\"height\":211,\"x\":-61.5},\"slot\":[{\"color\":{},\"name\":\"sheetSlot\",\"parent\":\"root\",\"displayIndex\":2}],\"animation\":[{\"duration\":5,\"frame\":[],\"bone\":[],\"slot\":[{\"colorFrame\":[],\"displayFrame\":[{\"duration\":1},{\"value\":1,\"duration\":1},{\"value\":2,\"duration\":1},{\"value\":3,\"duration\":1},{\"value\":4,\"duration\":1}],\"name\":\"sheetSlot\"}],\"ffd\":[],\"ik\":[],\"playTimes\":0,\"name\":\"Sprite\"}],\"name\":\"Sprite\",\"frameRate\":20,\"skin\":[{\"name\":\"\",\"slot\":[{\"display\":[{\"path\":\"1\",\"type\":\"image\",\"name\":\"1\",\"transform\":{}},{\"path\":\"2\",\"type\":\"image\",\"name\":\"2\",\"transform\":{}},{\"path\":\"4\",\"type\":\"image\",\"name\":\"4\",\"transform\":{}},{\"path\":\"5\",\"type\":\"image\",\"name\":\"5\",\"transform\":{}},{\"path\":\"3\",\"type\":\"image\",\"name\":\"3\",\"transform\":{}}],\"name\":\"sheetSlot\"}]}]}],\"name\":\"zhadanfeixingdonghua\",\"version\":\"5.5\"}",
+  "subMetas": {}
+}

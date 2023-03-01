@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5a8fc4d1-3a7e-4c76-bcbf-109d38b1f93e",
+  "atlasJson": "{\"width\":142,\"imagePath\":\"zhadanmiaozhuenqidonghua_tex.png\",\"height\":118,\"name\":\"zhadanmiaozhuenqidonghua\",\"SubTexture\":[{\"width\":86,\"y\":1,\"height\":86,\"name\":\"底 (1)\",\"x\":1},{\"width\":26,\"y\":89,\"height\":27,\"name\":\"底 (2)\",\"x\":1},{\"width\":51,\"y\":1,\"height\":48,\"name\":\"光球\",\"x\":89}]}",
+  "texture": "c28cadd3-cdcd-4e7b-8c3a-027f087834d3",
+  "subMetas": {}
+}

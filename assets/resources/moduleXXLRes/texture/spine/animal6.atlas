@@ -1,0 +1,34 @@
+
+animal6.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tg_0005_xiaoxinxin_yan
+  rotate: false
+  xy: 78, 91
+  size: 42, 10
+  orig: 42, 10
+  offset: 0, 0
+  index: -1
+tg_0006_xiaoxinxin_zui
+  rotate: false
+  xy: 2, 2
+  size: 17, 11
+  orig: 17, 11
+  offset: 0, 0
+  index: -1
+tg_0007_xiaoxinxin_hong
+  rotate: false
+  xy: 2, 15
+  size: 56, 10
+  orig: 56, 10
+  offset: 0, 0
+  index: -1
+tg_0008_xiaoxinxin
+  rotate: false
+  xy: 2, 27
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

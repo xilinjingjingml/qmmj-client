@@ -1,0 +1,131 @@
+
+jiesuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoguang_1
+  rotate: false
+  xy: 346, 234
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+jiesuan_0001_tx_xin_01
+  rotate: false
+  xy: 199, 128
+  size: 93, 33
+  orig: 93, 33
+  offset: 0, 0
+  index: -1
+jiesuan_0002_tx_xin_02
+  rotate: false
+  xy: 2, 38
+  size: 121, 88
+  orig: 121, 88
+  offset: 0, 0
+  index: -1
+jiesuan_0003_tx_xin_03
+  rotate: true
+  xy: 888, 877
+  size: 139, 70
+  orig: 139, 70
+  offset: 0, 0
+  index: -1
+jiesuan_0006_fenshu_ui
+  rotate: false
+  xy: 125, 67
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+jiesuan_0008_xin_03
+  rotate: false
+  xy: 2, 128
+  size: 195, 190
+  orig: 195, 190
+  offset: 0, 0
+  index: -1
+jiesuan_0015_baiguang_01
+  rotate: false
+  xy: 2, 320
+  size: 709, 696
+  orig: 709, 696
+  offset: 0, 0
+  index: -1
+jiesuan_0016_xuanzhuanguang
+  rotate: false
+  xy: 713, 696
+  size: 141, 142
+  orig: 141, 142
+  offset: 0, 0
+  index: -1
+jiesuan__0000_zuanshi_01
+  rotate: false
+  xy: 960, 984
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+jiesuan__0001_zuanshi_02
+  rotate: false
+  xy: 994, 990
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+jiesuan__0002_zuanshi_03
+  rotate: false
+  xy: 2, 2
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+jiesuan__0003_zuanshi_04
+  rotate: false
+  xy: 888, 842
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+jiesuan__0004_zuanshi_05
+  rotate: false
+  xy: 856, 821
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+jiesuan_xin_02
+  rotate: false
+  xy: 713, 626
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+lanxin
+  rotate: false
+  xy: 199, 163
+  size: 145, 155
+  orig: 145, 155
+  offset: 0, 0
+  index: -1
+lanxin_02
+  rotate: false
+  xy: 713, 840
+  size: 173, 176
+  orig: 173, 176
+  offset: 0, 0
+  index: -1
+
+jiesuan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiesuan_0014_sheguang_heji
+  rotate: false
+  xy: 2, 2
+  size: 735, 516
+  orig: 735, 516
+  offset: 0, 0
+  index: -1

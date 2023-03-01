@@ -1,0 +1,44 @@
+message proto_gc_start_bet_ack{
+
+  required  int32  nAutoType  =  1;
+  required  int64  nAwardMoney  =  2;
+  repeated  proto_VecAnimalTile  mBoard  =  3;
+  repeated  proto_MatAnimalTile  mMatchedTiles  =  4;
+}
+message proto_VecAnimalTile{
+
+  required  int64  nValue  =  1;
+  repeated  proto_AnimalTilePack  data1D  =  2;
+}
+message proto_MatAnimalTile{
+
+  repeated  proto_VecAnimalTile  data2D  =  1;
+}
+message proto_cg_start_bet_req{
+
+  required  int32  nAutoType  =  1;
+  repeated  int64  nBetMoney  =  2;
+}
+message proto_AnimalTilePack{
+
+  required  int32  nType  =  1;
+  required  int32  nPosX  =  2;
+  required  int32  nPosY  =  3;
+  required  int32  nInfo  =  4;
+}
+message proto_gc_common_not{
+
+  required  int32  nOp  =  1;
+  required  int32  cChairID  =  2;
+  required  int32  nValue  =  3;
+}
+message proto_cg_super_award_req{
+
+	required	int32	nOp	=	1;
+	required	int32	nValue	=	2;
+}
+message proto_gc_super_award_not{
+
+	required	int32	nRet	=	1;
+	required	int32	nValue	=	2;
+}

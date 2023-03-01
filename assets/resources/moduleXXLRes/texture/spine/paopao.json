@@ -1,0 +1,59 @@
+{
+"skeleton": {
+	"hash": "x1fjUNpd2ySCjSBTZtGSNC1gsps",
+	"spine": "3.6.53",
+	"width": 643.97,
+	"height": 625.97,
+	"images": "E:\\麻将\\新H5-微信小游戏麻将\\消消乐\\动画\\images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "pao", "parent": "root", "length": 77.8, "rotation": 89.16, "x": -0.76, "y": 187.23 },
+	{ "name": "guang", "parent": "pao", "rotation": 122.21, "x": 43.93, "y": -3.88 }
+],
+"slots": [
+	{ "name": "pao", "bone": "pao", "attachment": "pao" },
+	{ "name": "guang", "bone": "guang", "attachment": "guang", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"guang": {
+			"guang": { "x": 0.32, "y": -3.05, "width": 489, "height": 435 }
+		},
+		"pao": {
+			"pao": { "x": 44.89, "y": -4.68, "rotation": -89.16, "width": 444, "height": 443 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guang": {
+				"color": [
+					{ "time": 0, "color": "ffffff71" }
+				]
+			}
+		},
+		"bones": {
+			"pao": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.791, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 3, "x": 0.791, "y": 1 },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			},
+			"guang": {
+				"rotate": [
+					{ "time": 0, "angle": -211.37 },
+					{ "time": 1, "angle": -31.37 },
+					{ "time": 2, "angle": -211.37 },
+					{ "time": 3, "angle": -31.37 },
+					{ "time": 4, "angle": -211.37 }
+				]
+			}
+		}
+	}
+}
+}

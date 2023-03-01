@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5532575a-a9eb-46e6-b70a-e7054a7f7548",
+  "atlasJson": "{\"width\":512,\"SubTexture\":[{\"frameWidth\":218,\"y\":327,\"frameHeight\":218,\"width\":112,\"frameX\":-53,\"height\":112,\"name\":\"tu1\",\"frameY\":-53,\"x\":152},{\"frameWidth\":218,\"y\":165,\"frameHeight\":218,\"width\":106,\"frameX\":-56,\"height\":106,\"name\":\"tu2\",\"frameY\":-56,\"x\":163},{\"frameWidth\":218,\"y\":327,\"frameHeight\":218,\"width\":106,\"frameX\":-56,\"height\":106,\"name\":\"tu3\",\"frameY\":-56,\"x\":366},{\"frameWidth\":218,\"y\":165,\"frameHeight\":218,\"width\":160,\"frameX\":-29,\"height\":160,\"name\":\"tu5\",\"frameY\":-29,\"x\":1},{\"frameWidth\":218,\"y\":1,\"frameHeight\":218,\"width\":162,\"frameX\":-28,\"height\":162,\"name\":\"tu6\",\"frameY\":-28,\"x\":1},{\"frameWidth\":218,\"y\":327,\"frameHeight\":218,\"width\":149,\"frameX\":-35,\"height\":150,\"name\":\"tu7\",\"frameY\":-35,\"x\":1},{\"frameWidth\":218,\"y\":327,\"frameHeight\":218,\"width\":98,\"frameX\":-61,\"height\":118,\"name\":\"tu4\",\"frameY\":-51,\"x\":266}],\"height\":512,\"name\":\"zhuangjidonghua_lanse\",\"imagePath\":\"zhuangjidonghua_lanse_tex.png\"}",
+  "texture": "8ca36366-0fc1-4570-bfa2-11f9f8644f4b",
+  "subMetas": {}
+}

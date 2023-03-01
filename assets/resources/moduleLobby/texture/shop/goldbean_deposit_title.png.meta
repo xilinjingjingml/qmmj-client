@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "43858864-3915-4e4e-9364-2f5da52156a5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "goldbean_deposit_title": {
+      "ver": "1.0.4",
+      "uuid": "55b194bd-a056-4deb-8823-77eda3044950",
+      "rawTextureUuid": "43858864-3915-4e4e-9364-2f5da52156a5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 145,
+      "height": 32,
+      "rawWidth": 146,
+      "rawHeight": 32,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+btn_new_user_sign.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniu
+  rotate: false
+  xy: 2, 44
+  size: 268, 82
+  orig: 268, 82
+  offset: 0, 0
+  index: -1
+diandian
+  rotate: false
+  xy: 597, 113
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+guang 2
+  rotate: false
+  xy: 542, 49
+  size: 53, 77
+  orig: 53, 77
+  offset: 0, 0
+  index: -1
+guang-1
+  rotate: false
+  xy: 272, 49
+  size: 268, 77
+  orig: 268, 77
+  offset: 0, 0
+  index: -1
+guang-3
+  rotate: true
+  xy: 185, 10
+  size: 32, 77
+  orig: 32, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 2, 2
+  size: 181, 40
+  orig: 181, 40
+  offset: 0, 0
+  index: -1

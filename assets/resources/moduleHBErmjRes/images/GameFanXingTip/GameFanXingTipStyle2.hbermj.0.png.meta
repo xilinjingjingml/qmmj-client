@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "f8d89c17-ce92-44b0-b9d2-3abd5039c742",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "GameFanXingTipStyle2.hbermj.0": {
+      "ver": "1.0.4",
+      "uuid": "d6f48b26-d85b-4529-b2e3-4fef1d4730ac",
+      "rawTextureUuid": "f8d89c17-ce92-44b0-b9d2-3abd5039c742",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -181,
+      "offsetY": 2.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1682,
+      "height": 2039,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

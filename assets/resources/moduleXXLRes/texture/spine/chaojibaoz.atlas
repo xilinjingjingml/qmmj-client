@@ -1,0 +1,41 @@
+
+chaojibaoz.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoxiang
+  rotate: false
+  xy: 798, 222
+  size: 206, 176
+  orig: 206, 176
+  offset: 0, 0
+  index: -1
+biaoti
+  rotate: false
+  xy: 586, 400
+  size: 415, 73
+  orig: 415, 73
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 437, 115
+  orig: 437, 115
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 119
+  size: 582, 354
+  orig: 582, 354
+  offset: 0, 0
+  index: -1
+ren
+  rotate: false
+  xy: 586, 207
+  size: 210, 191
+  orig: 210, 191
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "5b8110ab-0d44-48b9-a620-b0c913c8c7b9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "tanchu_diban02": {
+      "ver": "1.0.4",
+      "uuid": "0041eadf-58ad-4118-95d1-23b73e014a0a",
+      "rawTextureUuid": "5b8110ab-0d44-48b9-a620-b0c913c8c7b9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 88,
+      "height": 91,
+      "rawWidth": 89,
+      "rawHeight": 94,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+miss.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+miss
+  rotate: false
+  xy: 661, 146
+  size: 246, 103
+  orig: 246, 103
+  offset: 0, 0
+  index: -1
+miss_0
+  rotate: false
+  xy: 2, 2
+  size: 329, 247
+  orig: 329, 247
+  offset: 0, 0
+  index: -1
+miss_1
+  rotate: false
+  xy: 333, 27
+  size: 326, 222
+  orig: 326, 222
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rocket_rotate",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5c56570c-61b2-4341-89e3-1da80c0733bf"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "8e62b7cb-033d-4bd0-b401-234e38ff6fe2"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "7a30468c-a1d6-45c9-9c73-72f408163a81"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "650bb644-31cb-400e-b5a2-5666f08ab1d6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "35e0add0-578d-4a56-90a7-c852326049a8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

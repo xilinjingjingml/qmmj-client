@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "d989d3ff-9095-4d65-a00c-386937704702",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "btn_friends_game": {
+      "ver": "1.0.4",
+      "uuid": "23297c1a-feee-4e1f-be44-a2b0521ca73f",
+      "rawTextureUuid": "d989d3ff-9095-4d65-a00c-386937704702",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 260,
+      "height": 394,
+      "rawWidth": 260,
+      "rawHeight": 394,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

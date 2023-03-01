@@ -1,0 +1,20 @@
+
+paopao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 10
+  size: 489, 435
+  orig: 489, 435
+  offset: 0, 0
+  index: -1
+pao
+  rotate: false
+  xy: 493, 2
+  size: 444, 443
+  orig: 444, 443
+  offset: 0, 0
+  index: -1

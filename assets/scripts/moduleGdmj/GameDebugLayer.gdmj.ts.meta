@@ -1,0 +1,9 @@
+{
+  "ver": "1.0.5",
+  "uuid": "183edade-fbca-45e5-850f-2e75a69ca1d1",
+  "isPlugin": false,
+  "loadPluginInWeb": true,
+  "loadPluginInNative": true,
+  "loadPluginInEditor": false,
+  "subMetas": {}
+}

@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "b8958e81-7c02-4091-b89b-151b84782afa",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "img_jiangjin_animal": {
+      "ver": "1.0.4",
+      "uuid": "78c586a1-19e5-46f8-82e5-a63f818673f7",
+      "rawTextureUuid": "b8958e81-7c02-4091-b89b-151b84782afa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 49,
+      "rawWidth": 250,
+      "rawHeight": 49,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

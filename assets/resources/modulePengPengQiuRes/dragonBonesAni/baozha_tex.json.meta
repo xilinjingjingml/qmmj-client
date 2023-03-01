@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "1402fd60-e151-467c-a174-e2dc360567c2",
+  "atlasJson": "{\"width\":1024,\"SubTexture\":[{\"width\":1,\"y\":305,\"height\":1,\"name\":\"背景\",\"x\":481},{\"frameWidth\":583,\"y\":1,\"frameHeight\":232,\"width\":583,\"frameX\":0,\"height\":227,\"name\":\"曝光1\",\"frameY\":-5,\"x\":1},{\"frameWidth\":142,\"y\":317,\"frameHeight\":142,\"width\":141,\"frameX\":-1,\"height\":141,\"name\":\"光圈\",\"frameY\":-1,\"x\":481},{\"frameWidth\":321,\"y\":230,\"frameHeight\":321,\"width\":281,\"frameX\":-26,\"height\":285,\"name\":\"曝光2\",\"frameY\":-23,\"x\":1},{\"frameWidth\":324,\"y\":1,\"frameHeight\":324,\"width\":324,\"frameX\":0,\"height\":314,\"name\":\"光束\",\"frameY\":-5,\"x\":586},{\"frameWidth\":244,\"y\":230,\"frameHeight\":244,\"width\":195,\"frameX\":0,\"height\":244,\"name\":\"光晕\",\"frameY\":0,\"x\":284},{\"width\":45,\"y\":230,\"height\":46,\"name\":\"星星1\",\"x\":481},{\"width\":14,\"y\":278,\"height\":14,\"name\":\"星星2\",\"x\":509},{\"frameWidth\":7,\"y\":1,\"frameHeight\":95,\"width\":4,\"frameX\":-2,\"height\":89,\"name\":\"射线\",\"frameY\":-3,\"x\":912},{\"width\":26,\"y\":278,\"height\":25,\"name\":\"金豆\",\"x\":481}],\"height\":1024,\"name\":\"baozha\",\"imagePath\":\"baozha_tex.png\"}",
+  "texture": "d86dd75b-633d-4a07-9282-40cdfe6b71cb",
+  "subMetas": {}
+}

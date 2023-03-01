@@ -1,0 +1,41 @@
+
+animal2.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tg_0017_lft_zui
+  rotate: false
+  xy: 63, 25
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+tg_0018_lft_mei
+  rotate: false
+  xy: 2, 2
+  size: 32, 6
+  orig: 32, 6
+  offset: 0, 0
+  index: -1
+tg_0019_lft_yan
+  rotate: false
+  xy: 78, 96
+  size: 41, 14
+  orig: 41, 14
+  offset: 0, 0
+  index: -1
+tg_0020_lft_hong
+  rotate: false
+  xy: 2, 10
+  size: 59, 24
+  orig: 59, 24
+  offset: 0, 0
+  index: -1
+tg_0021_lft
+  rotate: false
+  xy: 2, 36
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

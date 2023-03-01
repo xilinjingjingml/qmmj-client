@@ -1,0 +1,158 @@
+message proto_cb_login_req{
+
+	required	int64	ply_guid	=	1;
+	required	string	ply_ticket	=	2;
+	required	int32	version	=	3;
+	required	string	ext_param	=	4;
+	required	int32	main_game_id	=	5;
+	required	int32	game_group	=	6;
+}
+message proto_bc_login_ack{
+
+	required	int32	ret	=	1;
+	required	proto_PlyBaseData	ply_base_data	=	2;
+	required	proto_PlayerStatus	ply_status	=	3;
+	required	string	error_msg	=	4;
+}
+message proto_PlyBaseData{
+
+	required	int64	ply_guid	=	1;
+	required	string	nickname	=	2;
+	required	int32	sex	=	3;
+	required	int32	gift	=	4;
+	required	int64	money	=	5;
+	required	int32	score	=	6;
+	required	int32	won	=	7;
+	required	int32	lost	=	8;
+	required	int32	dogfall	=	9;
+	required	int32	table_id	=	10;
+	required	int32	param_1	=	11;
+	required	int32	param_2	=	12;
+	required	int32	chair_id	=	13;
+	required	int32	ready	=	14;
+	required	proto_VipData	ply_vip	=	15;
+}
+message proto_PlayerStatus{
+
+	required	int64	ply_guid	=	1;
+	required	string	ply_nickname	=	2;
+	required	int32	ply_status	=	3;
+	required	int32	sex	=	4;
+	required	int32	game_id	=	5;
+	required	int32	game_server_id	=	6;
+	required	int32	table_id	=	7;
+	required	int64	money	=	8;
+	required	int32	won	=	9;
+	required	int32	lost	=	10;
+	required	int32	money_rank	=	11;
+	required	int32	won_rank	=	12;
+	required	int32	param_1	=	13;
+	required	int32	param_2	=	14;
+	required	float	latitude	=	15;
+	required	float	longitude	=	16;
+}
+message proto_VipData{
+
+	required	int32	level	=	1;
+	required	int32	nex_level_total_days	=	2;
+	required	int32	auto_upgrade_day	=	3;
+	required	int32	login_award	=	4;
+	required	int32	friend_count	=	5;
+	required	int32	next_level_due_days	=	6;
+	required	int32	remain_due_days	=	7;
+	required	int32	status	=	8;
+}
+message proto_cb_join_table_req{
+
+	required	int32	table_id	=	1;
+	required	string	password	=	2;
+	required	int32	club_uid	=	3;
+}
+message proto_bc_join_table_ack{
+
+	required	int32	ret	=	1;
+	required	proto_TableAttr	table_attrs	=	2;
+	required	string	errMsg	=	3;
+}
+message proto_TableAttr{
+
+	required	int32	table_id	=	1;
+	required	string	name	=	2;
+	required	int32	lock	=	3;
+	repeated	proto_PlyBaseData	players	=	4;
+}
+message proto_cb_leave_table_req{
+
+}
+message proto_bc_leave_table_ack{
+
+	required	int32	ret	=	1;
+	required	string	ply_nickname	=	2;
+}
+message proto_bc_ply_join_not{
+
+	required	proto_PlyBaseData	ply_data	=	1;
+}
+message proto_bc_ply_leave_not{
+
+	required	int64	ply_guid	=	1;
+}
+message proto_cb_ready_req{
+
+}
+message proto_bc_ready_not{
+
+	required	int64	ply_guid	=	1;
+}
+message proto_cb_change_table_req{
+
+}
+message proto_bc_update_ply_data_not{
+
+	required	int64	ply_guid	=	1;
+	required	int32	upt_reason	=	2;
+	required	int32	upt_type	=	3;
+	required	int32	variant	=	4;
+	required	int64	amount	=	5;
+}
+message proto_bc_message_not{
+
+	required	int32	type	=	1;
+	required	string	message	=	2;
+}
+message proto_bc_specify_item_update_not{
+
+	required	int64	ply_guid	=	1;
+	required	int32	index	=	2;
+	required	int32	num	=	3;
+}
+message proto_ppq_cg_set_bet_req{
+
+	required	int32	bet	=	1;
+	required	float	angle	=	2;
+}
+message proto_ppq_gc_set_bet_ack{
+
+	required	int32	ret	=	1;
+	required	string	msg	=	2;
+}
+message proto_ppq_gc_game_end_noti{
+
+	required	int32	ret	=	1;
+	required	int64	score	=	2;
+	required	float	angle	=	3;
+	required	float	speed	=	4;
+	required	int32	multi	=	5;
+	required	string	p	=	6;
+}
+message proto_ppq_gc_table_info_noti{
+
+	repeated	proto_ppq_kv_pair	info_list	=	1;
+}
+message proto_ppq_kv_pair{
+
+	required	string	key	=	1;
+	required	string	value	=	2;
+}
+
+

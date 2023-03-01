@@ -1,0 +1,34 @@
+
+animal3.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tg_0022_mkl_zui
+  rotate: false
+  xy: 116, 100
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+tg_0023_mkl_yan
+  rotate: false
+  xy: 78, 85
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+tg_0024_mkl_hong
+  rotate: false
+  xy: 2, 2
+  size: 46, 31
+  orig: 46, 31
+  offset: 0, 0
+  index: -1
+tg_0025_mkl
+  rotate: false
+  xy: 2, 35
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

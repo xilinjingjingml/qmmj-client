@@ -1,0 +1,41 @@
+
+kuaisukaishi.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 38
+  size: 353, 83
+  orig: 353, 83
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 556, 38
+  size: 127, 83
+  orig: 127, 83
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 685, 38
+  size: 61, 83
+  orig: 61, 83
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 357, 72
+  size: 197, 49
+  orig: 197, 49
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 2, 2
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1

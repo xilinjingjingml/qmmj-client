@@ -1,0 +1,69 @@
+
+xiaochu-teixiao1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoguang_1
+  rotate: false
+  xy: 145, 165
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+jiesuan_0016_xuanzhuanguang
+  rotate: false
+  xy: 2, 107
+  size: 141, 142
+  orig: 141, 142
+  offset: 0, 0
+  index: -1
+jiesuan__0000_zuanshi_01
+  rotate: false
+  xy: 102, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+jiesuan__0001_zuanshi_02
+  rotate: true
+  xy: 206, 135
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+jiesuan__0002_zuanshi_03
+  rotate: false
+  xy: 102, 71
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+jiesuan__0003_zuanshi_04
+  rotate: false
+  xy: 102, 36
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+jiesuan__0004_zuanshi_05
+  rotate: false
+  xy: 230, 232
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+xin_1
+  rotate: false
+  xy: 145, 104
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+xuanzhuanguang
+  rotate: false
+  xy: 2, 7
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0a04261f-50bd-46a1-b78e-b5956441e393",
+  "atlasJson": "{\"width\":512,\"SubTexture\":[{\"width\":1,\"y\":221,\"height\":1,\"name\":\"tu1\",\"x\":509},{\"width\":1,\"y\":227,\"height\":1,\"name\":\"tu2\",\"x\":509},{\"width\":1,\"y\":224,\"height\":1,\"name\":\"tu3\",\"x\":509},{\"frameWidth\":218,\"y\":221,\"frameHeight\":218,\"width\":162,\"frameX\":-28,\"height\":162,\"name\":\"tu6\",\"frameY\":-28,\"x\":194},{\"frameWidth\":218,\"y\":221,\"frameHeight\":218,\"width\":191,\"frameX\":-18,\"height\":194,\"name\":\"tu4\",\"frameY\":-16,\"x\":1},{\"width\":218,\"y\":1,\"height\":218,\"name\":\"tu5\",\"x\":1},{\"frameWidth\":218,\"y\":221,\"frameHeight\":218,\"width\":149,\"frameX\":-35,\"height\":150,\"name\":\"tu7\",\"frameY\":-35,\"x\":358}],\"height\":512,\"name\":\"zhuangjidonghuaguang\",\"imagePath\":\"zhuangjidonghuaguang_tex.png\"}",
+  "texture": "07207521-8901-4f44-882a-a891b1b0b3ff",
+  "subMetas": {}
+}
